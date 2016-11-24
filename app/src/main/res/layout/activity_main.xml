@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/vfd"
+        android:id="@+id/imageView"
+         />
+
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ew"
+            android:id="@+id/imageButton2"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/khul"
+        android:layout_toEndOf="@+id/khul" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/dsvs"
+        android:id="@+id/imageButton7"
+        android:clickable="true"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/qw"
+        android:id="@+id/imageButton"
+        android:clickable="true"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:layout_toStartOf="@+id/imageButton2"
+        android:layout_marginTop="52dp" />
+
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sdc"
+            android:id="@+id/imageButton4"
+        android:clickable="true"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/dfv"
+            android:id="@+id/imageButton5"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView"
+            android:clickable="true" />
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/goku"
+        android:id="@+id/khul"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
